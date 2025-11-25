@@ -1,0 +1,46 @@
+.flex{
+    display: flex;
+    margin-top:5rem;
+}
+.flex input{
+    width: 246px;
+}
+.flex button{
+    border: none;
+}
+.flex>button{
+    background-color: aquamarine;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+.calendar{
+    text-align: center;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    width:fit-content;
+    margin: auto;
+    position: absolute;
+}
+.front{
+    display: inline-flex;
+    gap: 2rem;
+}
+.daysw{
+    display: inline-flex;
+    gap: 2rem;
+}
+.days{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+.days div{
+    width: 40px;
+    border:1px solid black;
+}
+.front button{
+    background: none;
+    border: none;
+}
